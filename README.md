@@ -35,18 +35,7 @@ Seu objetivo é auxiliar no **cadastro, controle e monitoramento** de **gastos, 
 ```
 Finance-Control/
 │
-├── src/
-│   ├── components/       # Componentes reutilizáveis
-│   ├── pages/            # Páginas principais
-│   ├── services/         # Regras de negócio e integração com API
-│   ├── assets/           # Ícones, imagens e estilos
-│   └── utils/            # Funções auxiliares
-│
-├── public/               # Arquivos estáticos
-├── README.md
-├── package.json
-└── .gitignore
-```
+
 
 ---
 
@@ -154,12 +143,12 @@ Finance-Control/
 
 ## 🛠️ **Tecnologias Previstas**
 
-* **Front-end:** React.js + Vite + Tailwind CSS
-* **Back-end:** Node.js (Express)
-* **Banco de Dados:** PostgreSQL
-* **Autenticação:** JWT
+* **Front-end:** 
+* **Back-end:** 
+* **Banco de Dados:** 
+* **Autenticação:** 
 * **Metodologia:** Scrum (com Sprints e User Stories)
-* **Controle de Versão:** Git e GitHub
+* **Controle de Versão:** GitHub
 
 ---
 
