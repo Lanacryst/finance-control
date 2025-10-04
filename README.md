@@ -32,8 +32,6 @@ Seu objetivo é auxiliar no **cadastro, controle e monitoramento** de **gastos, 
 
 ## 📂 **Estrutura do Projeto**
 
-```
-Finance-Control/
 │
 
 
