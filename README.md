@@ -156,4 +156,3 @@ Seu objetivo é auxiliar no **cadastro, controle e monitoramento** de **gastos, 
 2. Configuração do **banco de dados e autenticação**.
 3. Implementação das **funcionalidades do Sprint 1**.
 4. Testes e validações com usuários simulados.
-
