@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Finance Control — Caixinhas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="login-screen">
+    <h2>Finance Control</h2>
+    <input type="text" id="nome" placeholder="Usuário" />
+    <input type="password" id="senha" placeholder="Senha" />
+    <div class="row">
+      <button id="btnLogin">Entrar</button>
+      <button id="btnRegistrar" class="secondary">Registrar</button>
+    </div>
+  </div>
+
+  <div class="container hidden" id="app-screen">
+    <div class="top-row">
+      <h2 id="welcome">Bem-vindo</h2>
+      <button id="logout" class="secondary">Sair</button>
+    </div>
+
+    <h3>💰 Saldo: R$ <span id="saldo">0.00</span></h3>
+
+    <section class="metas-section">
+      <h3>Minhas Metas (Caixinhas)</h3>
+
+      <div class="nova-meta">
+        <input type="text" id="nomeMeta" placeholder="Nome da meta" />
+        <input type="number" id="valorMeta" placeholder="Valor objetivo (R$)" />
+        <button id="criarMeta">Criar Meta</button>
+      </div>
+
+      <div id="metasGeral" class="meta-geral hidden">
+        <p>Progresso total das metas: <span id="progressoGeralTxt">0%</span></p>
+        <div class="barra">
+          <div id="barraGeral" class="barraProgresso"></div>
+        </div>
+      </div>
+
+      <div id="listaMetas"></div>
+    </section>
+
+    <section class="transacoes-section">
+      <h3>Nova Transação</h3>
+      <select id="tipo">
+        <option value="income">Receita</option>
+        <option value="expense">Despesa</option>
+      </select>
+      <input type="text" id="categoria" placeholder="Categoria" />
+      <input type="number" id="valor" placeholder="Valor (R$)" />
+      <input type="date" id="data" />
+      <button id="adicionar">Adicionar</button>
+
+      <h3>Histórico</h3>
+      <table>
+        <thead>
+          <tr><th>Tipo</th><th>Categoria</th><th>Valor</th><th>Data</th></tr>
+        </thead>
+        <tbody id="listaTransacoes"></tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
