@@ -1,0 +1,18 @@
+## MVP — Finance Control (Caixinhas)
+
+O projeto implementa um MVP de um sistema de controle financeiro pessoal com base em "caixinhas" de economia.
+
+### Funcionalidades principais
+- Cadastro e login de usuários.
+- Armazenamento local de dados (localStorage).
+- Criação e acompanhamento de metas financeiras.
+- Cálculo e exibição do saldo total.
+- Interface simples e intuitiva em HTML, CSS e JavaScript puro.
+
+### Padrões de Projeto
+O projeto aplica alguns princípios inspirados em padrões de projeto:
+
+- **Module Pattern (implícito)** — O código é dividido em seções lógicas (`helpers`, `auth`, `app`), promovendo encapsulamento e separação de responsabilidades.
+- **MVC simplificado** — O `index.html` atua como View, o `script.js` como Controller, e o `localStorage` representa o Model, armazenando os dados.
+- **Singleton (implícito)** — O `localStorage` funciona como uma instância única acessível por toda a aplicação.
+
